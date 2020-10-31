@@ -10,7 +10,7 @@ namespace lab07_ver2
     {
         static void Main(string[] args)
         {
-            string text = File.ReadAllText(@"C:\Users\mrfra\Desktop\1\input.txt"); //mrfra - имя пользователя
+            string text = File.ReadAllText(@"D:\lab\lab07\1\input.txt"); 
 
             char[] MassiveUncord = new char[] { '-', '+', '/', '*', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ' ' };
 
@@ -36,7 +36,7 @@ namespace lab07_ver2
             }
 
             Calculator(Peremen, ref rezult);
-            File.WriteAllText(@"C:\Users\mrfra\Desktop\1\output.txt", rezult); //mrfra - имя пользователя
+            File.WriteAllText(@"D:\lab\lab07\1\output.txt", rezult); 
         }
         static void Razdelenie(string text, ref List<string> Peremen)
         {
